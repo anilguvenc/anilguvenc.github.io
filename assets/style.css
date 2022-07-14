@@ -1,9 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+@media print {
+    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+}
+html {
+    overflow: hidden;
+}
+body { 
+    background: #e0e0e0 !important;
+    width: 99%;
+    height: auto;
+}
+#A4{
+     padding: 10mm;     
+     width: 21cm;
+     height: 100%;
+     box-sizing: border-box;
+     box-shadow: 0 .5mm 2mm rgba(0,0,0,.3);
+     margin: 8mm auto;
+     position: static;
+     background: #fff !important;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
+
 #introduction{
 }
-#namesurname {
-    font-size: large;
-    font-style: bold;
+
+.align_right {
+    text-align: right !important;
+}
+
+.title_1 {
+    font-size: 2.8em;
+    font-weight:400;
+    letter-spacing: 0.25px;
+    left: auto;
+    word-spacing: -0.13px;
+}
+
+.title_2{
+    font-size: 1.6em;
+    font-weight:400;
+    letter-spacing: 0.25px;
+    left: auto;
+    word-spacing: -0.13px;
+    text-transform: uppercase;
 }

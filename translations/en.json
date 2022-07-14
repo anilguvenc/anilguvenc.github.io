@@ -1,4 +1,33 @@
 { 
+    "page_title": "Anıl Güvenç",
     "name": "Anıl", 
-    "surname": "Güvenç"
+    "surname": "Güvenç",
+    "introduction_title": "",
+    "introduction": "",
+    "contact":{
+        "title": "Contact",
+        "email_title": "<i class='fa-solid fa-at'></i> ",
+        "email": "anilguvenc@gmail.com",
+        "socials": [
+            {
+                "title": "LinkedIn",
+                "username": "anilguvenc",
+                "url": "https://www.linkedin.com/in/anil-guvenc-b9a8b917b/"
+            }
+        ]
+    },
+    "experiences": [
+        {
+            "company": "Google",
+            "position": "Software Engineer",
+            "startDate": "2018-01-01",
+            "endDate": "2018-01-01"
+        },
+        {
+            "company": "Microsoft",
+            "position": "Software Engineer",
+            "startDate": "2018-01-01",
+            "endDate": "2018-01-01"
+        }
+    ]
 }
