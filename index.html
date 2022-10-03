@@ -10,36 +10,50 @@
         <script type = "text/javascript" src="assets/jquery-3.6.0.min.js"></script>
         <script type = "text/javascript" src="assets/scripts.js"></script>  
         <script src="https://kit.fontawesome.com/38ac0181f5.js" crossorigin="anonymous"></script>
+        
+        <!-- Check for JavaScript dependency. -->
+        <script> 
+            $(document).ready(function() {
+                $("#noJS").hide();
+                $("#A4").show();
+            });
+        </script>
+
     </head>
     <body>
-    <div id="A4">
-                <div class="row">
-                    <div class="col-6 title_1" id="namesurname"></div>
-                    <div class="col-6"></div>
-                </div>
-                <hr/>
-            <section class="introduction">
-                <div class="row">
-                    <div id="introduction_title", class="title_2"></div>
-                    <p id="introduction"></p>
-                </div>
-            </section>
-            <section class="contact">
-                <div class="row">
-                    <div class="col-3"><div id="contact_title" class="title_2"></div></div>
-                </div>
-                <div class="row">
-                    <div class="col-3"></div>
-                    <div class="col-3"><div id="contact_address" class="contact_adress"></div></div>
-                    <div class="col-6 align_right">
-                        <div id="contact_location" class="contact_location"></div>
-                        <div id="contact_phone" class="contact_phone"></div>
-                        <div id="contact_email" class="contact_email"></div>
-                        <div id="contact_social" class="contact_social"></div>
-                    </div>
-                </div>
-            
-            <div id ="experiences"></div>
+        <!-- JavaScript is disabled. -->
+        <div id="noJS">
+            This page requires JavaScript to work. Please enable javascript in your browser.
+        </div>
+
+        <div id="A4">
+            <div class="row">
+                <div class="col-6 title_1" id="namesurname"></div>
+                <div class="col-6"></div>
             </div>
-</body>
+                <hr/>
+                <section class="introduction">
+                    <div class="row">
+                        <div id="introduction_title", class="title_2"></div>
+                        <p id="introduction"></p>
+                    </div>
+                </section>
+                <section class="contact">
+                    <div class="row">
+                        <div class="col-3"><div id="contact_title" class="title_2"></div></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3"></div>
+                        <div class="col-3"><div id="contact_address" class="contact_adress"></div></div>
+                        <div class="col-6 align_right">
+                            <div id="contact_location" class="contact_location"></div>
+                            <div id="contact_phone" class="contact_phone"></div>
+                            <div id="contact_email" class="contact_email"></div>
+                            <div id="contact_social" class="contact_social"></div>
+                        </div>
+                    </div>
+                
+                 <div id ="experiences"></div>
+        </div>
+    </body>
 </html>
