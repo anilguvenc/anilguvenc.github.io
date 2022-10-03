@@ -3,7 +3,6 @@ $(document).ready(function() {
    var w = window.innerWidth;
    var h = window.innerHeight;
    document.getElementById("A4").style = `transform: scale(${2100/w})`;
-   console.log(w);
      $.getJSON('translations/en.json', function(info) {
          $('title').text(info.page_title);
          $('#namesurname').html(info.name + " " + info.surname);
@@ -23,6 +22,5 @@ $(document).ready(function() {
          $('#experiences').append('<p>' + item.company + '</p>');
          });
      });
-   
 });
 
